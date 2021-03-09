@@ -8,3 +8,45 @@ body {
     font-family: 'Quicksand', sans-serif;
     
 }  
+
+#wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: skyblue; 
+    height: max-content;
+
+}
+
+#banner-wrapper {
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 0 0 3% 0;
+}
+nav {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+#icono-del-menu {
+    display: none;
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 150%;
+    display: inline-block;
+    /*float: left;*/
+    padding: 10px;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.current {
+    color: black;
+}
