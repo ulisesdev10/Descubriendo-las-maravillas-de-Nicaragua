@@ -7,12 +7,30 @@ body {
     background: whitesmoke;
     font-family: 'Quicksand', sans-serif;
     
-}  
+} 
+
+#FONDAZO {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+#banner-wrapper2 {
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 3 0 3% 0;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize ;
+    font-weight: bold;
+}
+}
 
 #wrapper {
-    max-width: 1200px;
+    max-width: 1300px;
+    height: auto;
     margin: 0 auto;
-    background-color: skyblue; 
+    background-color: white; 
     height: max-content;
 
 }
@@ -21,6 +39,7 @@ body {
     max-width: 1200;
     margin: 0 auto;
     padding: 0 0 3% 0;
+    text-decoration: none;
 }
 nav {
     float: right;
