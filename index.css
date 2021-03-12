@@ -5,11 +5,54 @@
     border: 0;
 }
 body {
-    background: whitesmoke;
+    background: white;
     font-family: 'Quicksand', sans-serif;
     
 } 
 
+/*MENUS DESPLEGABLES DROPDOWN;*/
+#header {
+    margin: auto;
+    width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.nav li a {
+    background-color: whitesmoke;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav li a:hover {
+    background-color: white;
+}
+
+.nav > li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover > ul {
+    display: block;
+}
+
+.nav li ul li {
+    position: relative;
+}
+
+
+
+/*MENUS DESPLEGABLES DROPDOWN;*/
 #FONDAZO {
     max-width: 100%;
     height: auto;
@@ -44,11 +87,6 @@ nav {
     padding: 25px 20px 0 0;
 }
 
-#icono-del-menu {
-    display: none;
-    font-size: 50px;
-}
-
 ul {
     list-style: none;
 }
@@ -67,3 +105,4 @@ nav ul li a {
 .current {
     color: black;
 }
+
